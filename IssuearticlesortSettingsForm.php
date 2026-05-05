@@ -72,8 +72,6 @@ class IssuearticlesortSettingsForm extends Form
         $templateMgr->assign('sortOptions', [
             'alphabetical' => 'plugins.generic.issuearticlesort.settings.alphabetical',
             'alphabetical_reverse' => 'plugins.generic.issuearticlesort.settings.alphabeticalReverse',
-            'author_alphabetical' => 'plugins.generic.issuearticlesort.settings.authorAlphabetical',
-            'author_alphabetical_reverse' => 'plugins.generic.issuearticlesort.settings.authorAlphabeticalReverse',
             'page_range' => 'plugins.generic.issuearticlesort.settings.pageRange',
             'date_published' => 'plugins.generic.issuearticlesort.settings.datePublished',
             'date_published_reverse' => 'plugins.generic.issuearticlesort.settings.datePublishedReverse',

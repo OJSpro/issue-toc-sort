@@ -140,10 +140,6 @@ class IssuearticlesortPlugin extends GenericPlugin
                             return strcasecmp($publicationA->getLocalizedTitle() ?? '', $publicationB->getLocalizedTitle() ?? '');
                         case 'alphabetical_reverse':
                             return strcasecmp($publicationB->getLocalizedTitle() ?? '', $publicationA->getLocalizedTitle() ?? '');
-                        case 'author_alphabetical':
-                            return strcasecmp($publicationA->getShortAuthorString() ?? '', $publicationB->getShortAuthorString() ?? '');
-                        case 'author_alphabetical_reverse':
-                            return strcasecmp($publicationB->getShortAuthorString() ?? '', $publicationA->getShortAuthorString() ?? '');
                         case 'page_range':
                             $aPages = $publicationA->getData('pages');
                             $bPages = $publicationB->getData('pages');

@@ -25,12 +25,6 @@ msgstr "Alphabetical order (A-Z)"
 msgid "plugins.generic.issuearticlesort.settings.alphabeticalReverse"
 msgstr "Reverse alphabetical order (Z-A)"
 
-msgid "plugins.generic.issuearticlesort.settings.authorAlphabetical"
-msgstr "Author name (A-Z)"
-
-msgid "plugins.generic.issuearticlesort.settings.authorAlphabeticalReverse"
-msgstr "Author name (Z-A)"
-
 msgid "plugins.generic.issuearticlesort.settings.pageRange"
 msgstr "Page Range order (1-10, 11-20...)"
 
